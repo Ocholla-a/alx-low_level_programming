@@ -1,0 +1,2 @@
+the following files do the following:
+0-preprocessor - runs a C file through the preprocessor and save the result into another file.
