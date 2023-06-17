@@ -3,18 +3,17 @@
 #include <time.h>
 
 /**
- * main - code execution starts
- *
- * Return: 0 success
- */
+* main - code execution starts
+*
+* Return: 0 success
+*/
 
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-        n = rand() - RAND_MAX / 2;
-
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
