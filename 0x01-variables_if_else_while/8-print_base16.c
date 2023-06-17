@@ -8,9 +8,12 @@
 
 int main(void)
 {
-	for (int n = 0 ; n < 10 ; n++)
+	int n;
+	char ch;
+
+	for (n = 0 ; n < 10 ; n++)
 		putchar(n);
-	for (char ch = 'a' ; ch < 'g' ; ch++)
+	for (ch = 'a' ; ch <= 'f' ; ch++)
 		putchar(ch);
 	putchar('\n');
 	return (0);
