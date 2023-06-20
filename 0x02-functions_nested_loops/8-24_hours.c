@@ -10,9 +10,9 @@ void jack_bauer(void)
 {
 	char i, j, m, n;
 
-	for (i = '0' ; i < '0' + 24 ; i++)
+	for (i = '0' ; i < '0' + 3 ; i++)
 	{
-		for (j = '0' ; j < '0' + 60 ; i++)
+		for (j = '0' ; j < '0' + 4 ; i++)
 		{
 			for (m = '0' ; m < '0' + 6 ; m++)
 				for (n = '0' ; n < '0' + 9 ; n++)
