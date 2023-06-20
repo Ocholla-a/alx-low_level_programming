@@ -2,7 +2,7 @@
 
 /**
  * _abs - determines absolute value of a number
- * n: number input
+ * @n: number input
  *
  * Return: absolute value
  */
