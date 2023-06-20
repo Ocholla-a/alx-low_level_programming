@@ -2,9 +2,6 @@
 
 /**
  * times_table - prints the multiplication table upto 9
- * @i: loop parameter
- * @j: loop parameter
- * @mult: value of multiplication of i and j
  *
  * Return: void
  */
@@ -23,8 +20,10 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
+				if (mult < 10)
+					_putchar(' ');
 			}
-			else 
+			else
 				_putchar('\n');
 		}
 	}
@@ -44,7 +43,7 @@ void print_no(int n)
 		_putchar('-');
 		n *= -1;
 	}
-	if (n/10)
-		print_no(n/10);
+	if (n / 10)
+		print_no(n / 10);
 	_putchar((n % 10) + '0');
 }
