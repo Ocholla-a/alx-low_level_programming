@@ -5,7 +5,7 @@
  * @n: first number
  * @m: second number
  *
- * Return: the sum 
+ * Return: the sum
  */
 
 int add(int n, int m)
