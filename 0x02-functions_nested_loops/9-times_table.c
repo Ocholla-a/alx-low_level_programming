@@ -18,10 +18,10 @@ void times_table(void)
 			print_no(mult);
 			if (j != 9)
 			{
-				if (mult < 10)
-					_putchar(' ');
 				_putchar(',');
 				_putchar(' ');
+				if ((mult < 10) && (mult != 0))
+					_putchar(' ');
 			}
 			else
 				_putchar('\n');
