@@ -11,3 +11,4 @@ void times_table(void);
 void print_to_98(int n);
 void print_alphabet_x10(void);
 void print_no(int n);
+int largest_number(int a, int b, int c);
