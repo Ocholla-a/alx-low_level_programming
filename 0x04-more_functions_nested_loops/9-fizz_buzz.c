@@ -47,8 +47,8 @@ int main(void)
 			print_no(i);
 			_putchar(' ');
 		}
-		return (0);
 	}
+	return (0);
 }
 
 /**
