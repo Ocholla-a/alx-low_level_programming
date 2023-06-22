@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * main - code execution starts
@@ -48,6 +49,7 @@ int main(void)
 			_putchar(' ');
 		}
 	}
+	_putchar('\n');
 	return (0);
 }
 
