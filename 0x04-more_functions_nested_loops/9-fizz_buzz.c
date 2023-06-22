@@ -1,13 +1,13 @@
 #include "main.h"
 #include "_putchar.c"
 
+void print_no(int n);
+
 /**
  * main - code execution starts
  *
  * Return: 0 always
  */
-
-void print_no(int n);
 
 int main(void)
 {
@@ -55,7 +55,7 @@ int main(void)
 
 /**
  * print_no - prints an integer passed to it
- *@n: the integer to be printed
+ * @n: the integer to be printed
  * Return: void
  */
 
