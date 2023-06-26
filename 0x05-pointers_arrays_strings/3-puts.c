@@ -9,5 +9,16 @@
 
 void _puts(char *str)
 {
-	puts(str);
+	const int max = 1000;
+
+	for (i = 0 ; i < max ; i++)
+	{
+		if (*str[i] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		else
+			_putchar(*str[i]);
+	}
 }
