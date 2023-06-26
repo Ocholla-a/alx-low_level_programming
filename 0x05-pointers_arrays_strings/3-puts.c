@@ -14,12 +14,12 @@ void _puts(char *str)
 
 	for (i = 0 ; i < max ; i++)
 	{
-		if (*str[i] == '\0')
+		if (str[i] == '\0')
 		{
 			_putchar('\n');
 			break;
 		}
 		else
-			_putchar(*str[i]);
+			_putchar(str[i]);
 	}
 }
