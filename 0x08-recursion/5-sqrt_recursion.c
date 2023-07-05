@@ -9,15 +9,22 @@
 
 int _sqrt_recursion(int n)
 {
-	int i;
+	return (square(0, n));
+}
 
-	i = 0;
-	if (i < (n / 2))
-	{
-		if ((i * i) != n)
-		{
-			_sqrt_recursion(i++);
-		}
-	}
-	return (i);
+/**
+ * square - checks if it is the square root
+ * @m: the square root
+ * @k: the square
+ *
+ * Return: the square root
+ */
+
+int square(int m, int k)
+{
+	if (m * m == k)
+		return (m);
+	if (m * m > n)
+		return (-1);
+	return (square(m + 1, k));
 }
