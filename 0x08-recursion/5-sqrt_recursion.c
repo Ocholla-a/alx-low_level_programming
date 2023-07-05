@@ -24,7 +24,7 @@ int square(int m, int k)
 {
 	if (m * m == k)
 		return (m);
-	if (m * m > n)
+	if (m * m > k)
 		return (-1);
 	return (square(m + 1, k));
 }
