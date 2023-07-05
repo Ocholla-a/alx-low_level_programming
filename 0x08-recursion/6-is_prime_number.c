@@ -9,7 +9,7 @@
 
 int is_prime_number(int n)
 {
-	return (isit_prime(2, n)
+	return (isit_prime(2, n));
 }
 /**
  * isit_prime - to verify if its prime
@@ -28,7 +28,7 @@ int isit_prime(int i, int m)
 		if (m % i == 0)
 			return (0);
 	}
-	if !(i <= m / 2)
+	if (!(i <= m / 2))
 		return (1);
-	return isit_prime(i+1, m);
+	return (isit_prime(i + 1, m));
 }
