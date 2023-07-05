@@ -8,3 +8,4 @@ int is_prime_number(int n);
 int _putchar(char c);
 int square(int m, int k);
 int isit_prime(int i, int m);
+void putsrecursion(int i, int n, char *s);
