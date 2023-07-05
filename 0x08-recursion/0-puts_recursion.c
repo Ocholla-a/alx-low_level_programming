@@ -10,7 +10,7 @@
 
 void _puts_recursion(char *s)
 {
-	int count, i;
+	int count;
 
 	count = strlen(s);
 	putsrecursion(0, count, s);
