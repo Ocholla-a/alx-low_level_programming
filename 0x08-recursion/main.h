@@ -9,4 +9,4 @@ int _putchar(char c);
 int square(int m, int k);
 int isit_prime(int i, int m);
 void putsrecursion(int i, int n, char *s);
-print_rev_recursion(int i, int n, char *s);
+void print_rev_recursion(int i, int n, char *s);
