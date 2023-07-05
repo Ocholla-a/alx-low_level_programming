@@ -14,8 +14,7 @@ void _print_rev_recursion(char *s)
 
 	count = strlen(s);
 	print_rev_recursion(0, count, s);
-	_putchar('\n');
-	return;
+/*	_putchar('\n');*/
 }
 
 /**
@@ -33,6 +32,5 @@ void print_rev_recursion(int i, int n, char *s)
 	{
 		print_rev_recursion(i + 1, n, s);
 		_putchar(s[i]);
-		return;
 	}
 }

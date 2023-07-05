@@ -33,4 +33,4 @@ void putsrecursion(int i, int n, char *s)
 		_putchar(s[i]);
 		putsrecursion(i + 1, n, s);
 	}
-}	
+}
