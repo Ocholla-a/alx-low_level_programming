@@ -23,13 +23,11 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1 ; i < argc ; i++)
 		{
-			/**
-			 * if (!(isdigit(argv[i])))
-			 *	{
-			 *	printf("Error\n");
-			 *	return (1);
-			 *	}
-			 */
+		/*	if (argv[i] == 'e')
+			{
+			printf("Error\n");
+			return (1);
+			}*/
 			n[i - 1] = convert(argv[i]);
 			count++;
 		}
@@ -56,6 +54,11 @@ int convert(char *s)
 	n = strlen(s);
 	for (i = 0 ; i < n ; i++)
 	{
+		if (s[i] == 'e')
+		{
+			printf("Error\n");
+			break;
+		}
 		num = num * 10 + (s[i] - 48);
 	}
 	return (num);
