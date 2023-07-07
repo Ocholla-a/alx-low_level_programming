@@ -17,6 +17,11 @@ int main(int argc __attribute__((unused)), char *argv[])
 {
 	int num1, num2;
 
+	if (argc < 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
 	num1 = convert(argv[1]);
 	num2 = convert(argv[2]);
 	printf("%d\n", mult(num1, num2));
@@ -50,7 +55,13 @@ int convert(char *s)
 	n = strlen(s);
 	for (i = 0 ; i < n ; i++)
 	{
+		if (s[i] == '-')
+		{
+			continue;
+		}
 		num = num * 10 + (s[i] - 48);
 	}
+	if (s[0] == '-')
+		num *= -1;
 	return (num);
 }
