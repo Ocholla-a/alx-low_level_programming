@@ -8,7 +8,7 @@
  * @age: third property which is the age of the dog
  */
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	char *owner;
