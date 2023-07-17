@@ -1,6 +1,6 @@
 #ifndef DOG_H
 #define DOG_H
-#define dog_t dog
+
 /**
  * struct dog - defining structure of a dog
  * @name: first property which is the name of the dog
@@ -14,5 +14,11 @@ struct dog
 	char *owner;
 	float age;
 };
+
+/**
+ * dog_t - Typedef for dog
+ */
+
+typedef struct dog dog_t;
 
 #endif
